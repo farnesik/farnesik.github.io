@@ -1,0 +1,31 @@
+The main page is comprised of a header, main body section, contact, and footer.
+After creating the default setup for the website (head), the index.html breaks down into 3 sections: the heading for Welcome to My Website! with links to the 2 pages and contact info, my about me paragraph, and the contact section.
+The heading uses a navigation section to show each link in an unbulleted list. The 2 pages are tied to their page url, where contact is tied to the section id later on the page.
+The About Me section has a simple smaller header, a paragraph of text, then a photo from the repository. The photo requires a class to make the image smaller and format it, and uses alt text if the photo doesn't appear.
+The last section uses the same smaller header from About Me, then embeds links to my email and social media.
+The footer at the bottom of the page acts as a cap for the page with some text.
+
+The explain.html acts as the second page to explain more about my main hobby: climbing.
+The heading uses the same setup as index.html, with h1 for the main header, h2 for a subheader, links to the other pages and so on.
+The main text section about climbing uses a bulleted list to show places I want to go, and another image following the same format as before.
+The contacts and footer remain the same.
+
+The style.css document is structured as follows:
+body {
+    font-family: Arial, sans-serif; - Basic font choice
+    background-color: #FFEDD5; - Chose a background to complement the blues/oranges I'll be using  
+    color: #1E3A8A; - Used my favorite color combo for website
+    margin: 0; - Established margins for the body of the website
+    padding: 0; - Established no extra space in the body
+    text-align: center; - Center alignment to keep everything central
+    display: flex; - Flexible layout to allow for morphing on different devices
+    flex-direction: column; - Column/vertical for scrolling/phone users.
+    min-height: 100vh; - Setting a minimum in case the site doesn't load something so the format stays standard.
+}
+
+header - Chose orange to complement blue, added some space to the header for the choices, and made the base color white.
+footer - Established the background color, padding space, width to cover the screen, aligned center to keep inline with other text, and kept margin area at the top of the footer.
+main & section - Added padding to make website fit better
+nav ul (li) (a) - Targeting the navigation elements on the pages to ensure they all ahve display formatting and look good for the website.
+ul - The bulleted lists needed formatting because their bullets weren't staying with the text, so I found how to do that online with list-style-position, then set the rest to flow with the website.
+.responsive-img - Restrictions for the image of 250x250 so the images don't cover the entire screen.
