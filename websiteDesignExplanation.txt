@@ -1,3 +1,5 @@
+I have no idea how to submit this homework, so I submitted the entire repo. My website url is https://farnesik.github.io
+
 The main page is comprised of a header, main body section, contact, and footer.
 After creating the default setup for the website (head), the index.html breaks down into 3 sections: the heading for Welcome to My Website! with links to the 2 pages and contact info, my about me paragraph, and the contact section.
 The heading uses a navigation section to show each link in an unbulleted list. The 2 pages are tied to their page url, where contact is tied to the section id later on the page.

@@ -67,11 +67,11 @@ socialMedia.then(function(data) {
         return { q1, median, q3, min, max };
     };
 
-    const quartilesByPlatform = d3.rollup(data, rollupFunction, d => d.Platform);
+    const quartilesBySpecies = d3.rollup(data, rollupFunction, d => d.species);
 
     // Draw the boxplot
-    quartilesByPlatform.forEach((quartiles, platform) => {
-        const x = xScale(platform);
+    quartilesBySpecies.forEach((quartiles, species) => {
+        const x = xScale(species);
         const boxWidth = xScale.bandwidth();
 
         // Vertical line (min to max)
